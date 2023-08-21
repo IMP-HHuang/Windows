@@ -19,6 +19,8 @@
     - .\NoLsp.exe C:\windows\system32\wsl.exe
 ## [WSL迁移](https://blog.csdn.net/qq_43557907/article/details/124737472)
 
+- 查看安装的WSL版本
+  - wsl --list
 - 打开PowerShell，终止正在运行的分发或虚拟机：
   - wsl --shutdown
 - 对需要迁移的分发或虚拟机导出（我安装的版本是Ubuntu-20.04）：
